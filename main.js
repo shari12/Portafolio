@@ -48,7 +48,24 @@ btnTech.addEventListener("click", () => {
   title.innerHTML = "Technical Skills";
   titleT.appendChild(title);
   const divTech = document.getElementById("divRoot");
-  const techSkils = `<h1>Aqui pondre mis habilidades tec :P</h1>`;
+  const techSkils = `<div class = "tech">
+  <div class ="basico">
+  <h1>Básico</h1>
+  <br/>
+  <img id ="git" src="img/git.svg"/>
+  <img id ="fire" src ="img/fire.svg"/>
+  <img id ="my" src ="img/mysql.svg"/>
+  <img id ="tre" src ="img/trello.svg"/>
+
+  </div>
+  <div class="inter"> 
+  <h1>Intermedio</h1>
+  <img id ="js" src="img/js.svg"/>
+  <img id ="html" src ="img/html.svg"/>
+  <img id ="css" src ="img/css.svg"/>
+  <img id ="figma" src ="img/figma.svg"/>
+  </div>
+  </div>`;
   divTech.innerHTML = techSkils;
 });
 
@@ -57,20 +74,32 @@ btnSoft.addEventListener("click", () => {
   title.innerHTML = "Soft Skills";
   const divSoft = document.getElementById("divRoot");
   titleT.appendChild(title);
-  const softSkils = `<div class="card">
-  <p class="line-1 anim-typewriter">• Puntual</p>
-  <p class="line-1 anim-typewriter">• Disciplina</p>
-  <p class="line-1 anim-typewriter">• Organización</p>
-  <p class="line-1 anim-typewriter">• Colaboración</p>
-  <p class="line-1 anim-typewriter">• Trabajo remoto</p>
+  const softSkils = `
+  <div class = "soft">
+  <div class ="basico1">
+    <br/>
+    <p class="line-1 anim-typewriter">• Puntual</p>
+    <p class="line-1 anim-typewriter">• Disciplina</p>
+    <p class="line-1 anim-typewriter">• Colaboración</p>
+    <p class="line-1 anim-typewriter">• Organización</p>
+    <p class="line-1 anim-typewriter">• Trabajo remoto</p>
+  
+
+  </div>
+  <div class="inter1"> 
+  <br/>
   <p class="line-1 anim-typewriter">• Trabajo en equipo</p>
   <p class="line-1 anim-typewriter">• Buena comunicación</p>
-  <p class="line-1 anim-typewriter">• Atención a clientes</p>
   <p class="line-1 anim-typewriter">• Capacidad de análisis</p>
   <p class="line-1 anim-typewriter">• Priorización de tareas</p>
   <p class="line-1 anim-typewriter">• Atención a los detalles</p>
-  <p class="line-1 anim-typewriter">• Capacidad de autoformación</p>
-</div>`;
+  
+  
+  </div>
+  </div>
+ 
+  `;
+  
   divSoft.innerHTML = softSkils;
 });
 
@@ -83,20 +112,22 @@ btnProjets.addEventListener("click", () => {
     <img src="http://i.picasion.com/pic90/46057b25552d903ce88bc9e95a98ca83.gif" width="300" height="217"/> 
     <h2>estuDIA</h2>
     <p>App que permite compartir cualquier herramienta que 
-      consideren util para prepararse en su examen de admision;
-      esta dirigida a cualquier persona  que tenga el interés 
-      de ingresar a nivel superior en el IPN.</p>
-      <p>Tecnología utilizada: HTML5, CSS3, JS, Firebase.</p> 
+    consideren útil para prepararse en su examen de admisión;
+    está dirigida a cualquier persona que tenga el interés 
+    de ingresar a nivel superior en el IPN.</p>
+    <p>Tecnología utilizada: HTML5, CSS3, JS, Firebase.
+</p> 
   </div>
   <div class="card">
     <img src="http://i.picasion.com/pic90/b8743bb2ba19d5c943b3c214d103c947.gif" width="300" height="170">
     <h2>Data Lovers</h2>
-    <p>Data digital que facilita la consulta de informacion
-    de los Pokemons que hay en la Region Kanto, clasifica en tipo de pokemon 
-    y debilidad que estos tienen, tambien muestra cuantos dulces necesita 
-    para poder evolucionar y podemos visualizar las caracteristicas 
-    especificas de cualquier Pokemon que pertenezca a esta region.</p>
-    <p>Tecnología utilizada: HTML5, CSS3, JS. </p>
+    <p>Data digital que facilita la consulta de información
+    de los Pokemons que hay en la región “Kanto”, clasifica en tipo de pokemon 
+    y debilidad que estos tienen, también muestra cuantos dulces necesita 
+    para poder evolucionar y podemos visualizar las características 
+    específicas de cualquier Pokemon que pertenezca a esta región. </p>
+    <p>Tecnología utilizada: HTML5, CSS3, JS.
+</p>
   </div>
 </div>
 `;
