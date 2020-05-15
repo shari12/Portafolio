@@ -9,6 +9,16 @@ header{
 
   
 }
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ 
+}
+#fo{
+  width: 250px;
+  border-radius: 200%;
+}
 .name{
   border-radius: 15px;
   border: rosybrown solid;
