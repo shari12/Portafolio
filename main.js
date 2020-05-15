@@ -109,7 +109,7 @@ btnProjets.addEventListener("click", () => {
   const divProjet = document.getElementById("divRoot");
   const cardsP = `
     <div class="card">
-    <img src="http://i.picasion.com/pic90/46057b25552d903ce88bc9e95a98ca83.gif" width="300" height="217"/> 
+    <img src="http://i.picasion.com/pic90/d0e3aaca9a821aa3a58703e6fefa4b56.gif"  width="300" height="217"/> 
     <h2>estuDIA</h2>
     <p>App que permite compartir cualquier herramienta que 
     consideren útil para prepararse en su examen de admisión;
@@ -119,7 +119,7 @@ btnProjets.addEventListener("click", () => {
 </p> 
   </div>
   <div class="card">
-    <img src="http://i.picasion.com/pic90/b8743bb2ba19d5c943b3c214d103c947.gif" width="300" height="170">
+    <img src="http://i.picasion.com/pic90/b8743bb2ba19d5c943b3c214d103c947.gif" width="300" height="170"/>
     <h2>Data Lovers</h2>
     <p>Data digital que facilita la consulta de información
     de los Pokemons que hay en la región “Kanto”, clasifica en tipo de pokemon 
